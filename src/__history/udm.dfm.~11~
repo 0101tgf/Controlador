@@ -1,0 +1,80 @@
+object dm: Tdm
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 270
+  Width = 490
+  object conexao: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\0101tgf\Desktop\Controlador\Win32\Debug\config' +
+        '.db'
+      'OpenMode=ReadWrite'
+      'LockingMode=Normal'
+      'DriverID=SQLite')
+    Connected = True
+    LoginPrompt = False
+    Left = 144
+    Top = 96
+  end
+  object FDPhysSQLiteDriverLink: TFDPhysSQLiteDriverLink
+    Left = 144
+    Top = 152
+  end
+  object FDGUIxWaitCursor: TFDGUIxWaitCursor
+    Provider = 'FMX'
+    Left = 144
+    Top = 32
+  end
+  object DataSource_Abastecimentos: TDataSource
+    DataSet = FDQuery_Relatorios
+    Left = 298
+    Top = 42
+  end
+  object FDQuery_Relatorios: TFDQuery
+    AggregatesActive = True
+    Connection = conexao
+    SQL.Strings = (
+      
+        'select Data_Movimento,Tanque, Combustivel, Bomba, sum(Total) as ' +
+        'Total from TAB_ABASTECIMENTOS'
+      'group by Data_Movimento,Tanque,Bomba'
+      'order by 1 ')
+    Left = 298
+    Top = 112
+    object FDQuery_RelatoriosData_Movimento: TDateField
+      FieldName = 'Data_Movimento'
+      Origin = 'Data_Movimento'
+      Required = True
+    end
+    object FDQuery_RelatoriosTanque: TIntegerField
+      FieldName = 'Tanque'
+      Origin = 'Tanque'
+      Required = True
+    end
+    object FDQuery_RelatoriosCombustivel: TWideStringField
+      FieldName = 'Combustivel'
+      Origin = 'Combustivel'
+      Required = True
+    end
+    object FDQuery_RelatoriosBomba: TIntegerField
+      FieldName = 'Bomba'
+      Origin = 'Bomba'
+      Required = True
+    end
+    object FDQuery_RelatoriosTotal: TFloatField
+      AutoGenerateValue = arDefault
+      FieldName = 'Total'
+      Origin = 'Total'
+      ProviderFlags = []
+      ReadOnly = True
+      currency = True
+    end
+    object FDQuery_RelatoriosTotalGeral: TAggregateField
+      FieldName = 'TotalGeral'
+      ReadOnly = True
+      currency = True
+      DisplayName = ''
+      Expression = 'SUM(Total)'
+    end
+  end
+end

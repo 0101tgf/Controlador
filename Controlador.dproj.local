@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/08/09 09:16:38.000.233,=C:\Users\0101tgf\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/09 10:01:59.000.597,=C:\Users\0101tgf\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/09 10:02:51.000.525,=C:\Users\0101tgf\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/09 10:03:29.000.840,=C:\Users\0101tgf\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/09 10:04:05.000.343,=C:\Users\0101tgf\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/09 10:04:40.000.456,=C:\Users\0101tgf\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/09/23 11:28:53.000.357,=C:\Users\0101tgf\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/16 09:13:26.000.636,=C:\Users\0101tgf\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/29 10:12:19.000.304,=C:\Users\0101tgf\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/08 19:29:26.000.588,=C:\Users\0101tgf\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/08 19:29:42.000.268,C:\Users\0101tgf\Desktop\Controlador\src\ufrmPrincipal.pas=C:\Users\0101tgf\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/08 19:29:42.000.268,C:\Users\0101tgf\Desktop\Controlador\src\ufrmPrincipal.dfm=C:\Users\0101tgf\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/03/08 19:29:50.000.262,C:\Users\0101tgf\Desktop\Controlador\Controlador.dproj=C:\Users\0101tgf\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/03/08 19:37:33.000.545,=C:\Users\0101tgf\Desktop\Controlador\Unit1.pas</Transaction>
+    <Transaction>2022/03/08 19:37:44.000.668,C:\Users\0101tgf\Desktop\Controlador\src\ufrmLogin.pas=C:\Users\0101tgf\Desktop\Controlador\Unit1.pas</Transaction>
+    <Transaction>2022/03/08 19:37:44.000.668,C:\Users\0101tgf\Desktop\Controlador\src\ufrmLogin.dfm=C:\Users\0101tgf\Desktop\Controlador\Unit1.dfm</Transaction>
+    <Transaction>2022/03/08 19:58:41.000.559,=C:\Users\0101tgf\Desktop\Controlador\Unit1.pas</Transaction>
+    <Transaction>2022/03/08 19:58:52.000.631,C:\Users\0101tgf\Desktop\Controlador\Unit1.pas=C:\Users\0101tgf\Desktop\Controlador\src\udm.pas</Transaction>
+    <Transaction>2022/03/08 19:58:52.000.631,C:\Users\0101tgf\Desktop\Controlador\Unit1.dfm=C:\Users\0101tgf\Desktop\Controlador\src\udm.dfm</Transaction>
+    <Transaction>2022/03/08 20:08:53.000.953,=C:\Users\0101tgf\Desktop\Controlador\Unit1.pas</Transaction>
+    <Transaction>2022/03/08 20:09:05.000.054,C:\Users\0101tgf\Desktop\Controlador\Unit1.pas=C:\Users\0101tgf\Desktop\Controlador\classes\cUser.pas</Transaction>
+    <Transaction>2022/03/09 10:49:33.000.069,=C:\Users\0101tgf\Desktop\Controlador\Unit1.pas</Transaction>
+    <Transaction>2022/03/09 10:50:36.000.319,C:\Users\0101tgf\Desktop\Controlador\Unit1.dfm=C:\Users\0101tgf\Desktop\Controlador\src\ufrmAbastecimentos.dfm</Transaction>
+    <Transaction>2022/03/09 10:50:36.000.319,C:\Users\0101tgf\Desktop\Controlador\Unit1.pas=C:\Users\0101tgf\Desktop\Controlador\src\ufrmAbastecimentos.pas</Transaction>
+    <Transaction>2022/03/09 15:35:35.000.402,=C:\Users\0101tgf\Desktop\Controlador\Unit1.pas</Transaction>
+    <Transaction>2022/03/09 15:35:53.000.526,C:\Users\0101tgf\Desktop\Controlador\classes\cAbastecimento.pas=C:\Users\0101tgf\Desktop\Controlador\Unit1.pas</Transaction>
+    <Transaction>2022/03/10 07:48:57.000.682,=C:\Users\0101tgf\Desktop\Controlador\Unit1.pas</Transaction>
+    <Transaction>2022/03/10 07:50:42.000.709,C:\Users\0101tgf\Desktop\Controlador\Unit1.dfm=C:\Users\0101tgf\Desktop\Controlador\relatorios\uRelAbastecimentos.dfm</Transaction>
+    <Transaction>2022/03/10 07:50:42.000.709,C:\Users\0101tgf\Desktop\Controlador\Unit1.pas=C:\Users\0101tgf\Desktop\Controlador\relatorios\uRelAbastecimentos.pas</Transaction>
+    <Transaction>2022/03/10 09:08:33.000.760,=C:\Users\0101tgf\Desktop\Controlador\Unit1.pas</Transaction>
+    <Transaction>2022/03/10 09:09:12.000.268,C:\Users\0101tgf\Desktop\Controlador\Unit1.pas=C:\Users\0101tgf\Desktop\Controlador\src\ufrmFiltroRelAbastecimento.pas</Transaction>
+    <Transaction>2022/03/10 09:09:12.000.268,C:\Users\0101tgf\Desktop\Controlador\Unit1.dfm=C:\Users\0101tgf\Desktop\Controlador\src\ufrmFiltroRelAbastecimento.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="classes"/>
+    <File Path="classes\cAbastecimento.pas"/>
+    <File Path="classes\cUser.pas"/>
+    <File Path="relatorios"/>
+    <File Path="relatorios\uRelAbastecimentos.pas"/>
+    <File Path="relatorios\uRelAbastecimentos.dfm"/>
+    <File Path="src"/>
+    <File Path="src\udm.pas"/>
+    <File Path="src\udm.dfm"/>
+    <File Path="src\ufrmAbastecimentos.pas"/>
+    <File Path="src\ufrmAbastecimentos.dfm"/>
+    <File Path="src\ufrmLogin.pas"/>
+    <File Path="src\ufrmLogin.dfm"/>
+    <File Path="src\ufrmPrincipal.pas"/>
+    <File Path="src\ufrmPrincipal.dfm"/>
+    <File Path="src\ufrmFiltroRelAbastecimento.pas"/>
+    <File Path="src\ufrmFiltroRelAbastecimento.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

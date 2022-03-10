@@ -1,0 +1,27 @@
+Tabela de usuário
+
+CREATE TABLE TAB_USER (
+    CodEmp INTEGER      NOT NULL,
+    Codigo INTEGER      PRIMARY KEY
+                        NOT NULL,
+    Nome   VARCHAR (20) NOT NULL,
+    Senha  VARCHAR (45) NOT NULL,
+    Ativo  INTEGER      DEFAULT (1) 
+);
+
+Tabela Abastecimentos
+
+CREATE TABLE TAB_ABASTECIMENTOS (
+    CodEmp         INTEGER (11)    NOT NULL,
+    Data_Movimento DATE            NOT NULL,
+    Documento      INTEGER         PRIMARY KEY
+                                   NOT NULL,
+    Cliente        STRING (45)     NOT NULL,
+    Tanque         INTEGER (11)    NOT NULL,
+    Bomba          INTEGER (11)    NOT NULL,
+    Combustivel    STRING (20)     NOT NULL,
+    Qtd_Litros     DECIMAL (18, 5) NOT NULL,
+    Valor_Uni      DECIMAL (18, 5) NOT NULL,
+    Imposto        DECIMAL (18, 5) NOT NULL,
+    Total          DECIMAL (18, 5) NOT NULL
+);
